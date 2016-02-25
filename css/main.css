@@ -1,0 +1,327 @@
+/* Inserta tu codigo aqui */
+
+body{
+    background-color:#2D2735;
+    font-size:10px;
+}
+
+section {
+    width:50%;
+    margin:auto;
+}
+
+footer{
+    width:100%;
+    margin:auto;
+}
+h1{
+    font-size: 5em;
+    font-weight:bold;
+    font-family: "Courgette";
+    color:#FBBD6B;
+    margin: 1.1rem 0 1.68rem 0;
+}
+
+h2{
+    font-size: 1em;
+    font-weight:bold;
+    font-family: "Courgette";
+    color:#FBBD6B;
+     margin: 0.78rem 0px 1.424rem 0;
+}
+
+ h3{
+    font-size: 1em;
+    font-family: "Open Sans";
+    font-style: italic;
+    color:#E5E3E2;
+    white-space:pre;
+}
+ h4{
+    font-size: 1em;
+    font-family: "Open Sans";
+    font-style: italic;
+    color:#E5E3E2;
+ }
+ 
+ p{
+    font-size: 1em;
+    font-family: "Open Sans";
+    color:#E5E3E2; 
+    text-align:left;
+    margin: 12px 5% 7% 3%;
+ }
+
+/*--------nav--------*/
+nav{
+   background-color:#1C1821;
+   position:fixed;
+   top:0;
+   z-index:5;
+}
+.nav-wrapper {
+    width:50%;
+    margin:auto;
+}
+
+
+.brand-logo img{
+    width:39%;
+}
+
+.ion-navicon-round{
+    background-color: white;
+}
+nav li a {
+    font-family:"Open Sans";
+    text-transform:uppercase;
+    font-style:italic;
+    padding: 0 7px;
+    font-size: 1.2em;
+}
+
+nav .button-collapse {
+    float: right;
+}
+/*---------------------section SLIDE-----*/
+.frontflower{
+    width:100%;
+    margin-top:14%;
+    background-image:url(../image/header-image.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-bottom: 11%;
+    padding-top: 10%;
+}
+
+
+.frontflower div {
+    background-color:#1C1821;
+    text-align:center;
+    width: 63%;
+    margin:auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.portfolioflower{
+    width:100%;
+}
+
+.flower {
+    width: 32%;
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 2%;
+    float:left;
+    background-color:#1C1821;
+}
+
+.flower:last-child{
+    margin-right:0px;
+}
+
+.flower img{
+    width:100%;
+}
+
+.flower h2{
+    margin:0;
+} 
+
+/*---------------------section BLOG-----*/
+.posts{
+    width:60%;
+    background-color:#1C1821;
+    text-align:center;
+    float:left;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+.posts img{
+    width:100%;
+}
+
+iframe{
+    width:100%;
+}
+
+.socialmedia{
+    width:35%;
+    float:left;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.social{
+    background-color:#1C1821;
+    text-align:center;
+    
+}
+
+.social img{
+    width:100%;
+}
+
+input{
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.socialShareButtons a path{
+    fill:gray;
+    
+}
+
+.socialShareButtons a:hover path {
+    fill: white;
+}
+
+svg{
+    width:30px;
+    height:30px;
+}
+/*---------------------footer-----*/
+
+footer{
+    text-align:center;
+    background-color:#1C1821;
+    overflow:auto;
+    
+}
+
+footer p{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+/* Responsive */
+
+/*----------------section slide--------*/
+
+@media screen and (max-width : 920px) {
+section {
+    width:90%;
+    margin:auto;
+}
+
+}
+
+@media screen and (max-width : 920px) {
+.nav-wrapper {
+    width:90%;
+    margin:auto;
+}
+}
+
+@media screen and (max-width: 920px){
+.brand-logo img {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 920px){
+nav .brand-logo {
+    left: 37%;
+}
+}
+
+@media screen and (max-width : 920px) {
+.frontflower {
+    margin-top:10%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    margin-bottom:10%;
+}
+
+}
+
+
+@media screen and (max-width : 920px) {
+.frontflower div{
+    width: 86%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  
+}
+
+}
+
+@media screen and (max-width : 920px) {
+.flower{
+    width: 100%;
+    margin-top:0%;
+}
+
+}
+@media screen and (max-width : 920px) {
+.posts{
+    width: 100%;
+    padding-bottom: 8%;
+}
+
+}
+@media screen and (max-width : 920px) {
+.socialmedia{
+    display:none;
+}
+
+}
+
+@media screen and (max-width : 920px) {
+h2{
+    margin: 0.78rem 0px 1.424rem 0;
+    font-size: 2em;
+}
+
+}
+
+
+/*----------------mediaquerie para max-width:600px----*/
+
+
+@media screen and (max-width: 600px) {
+
+section {
+    width:90%;
+    margin:auto;
+}
+
+}
+
+@media screen and (max-width : 600px) {
+.frontflower {
+    margin-top:25%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+}
+
+
+
+@media screen and (max-width : 600px) {
+.nav-wrapper {
+    width:90%;
+    margin:auto;
+}
+}
+
+@media screen and (max-width: 600px){
+.brand-logo img {
+    width: 62%;
+}
+}
+
+@media screen and (max-width: 600px){
+nav .brand-logo {
+    left: 37%;
+}
+}
+
